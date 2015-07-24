@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nameLabel</key>
+		<string>朋友圈</string>
+		<key>moreLabel</key>
+		<string>晒晒您的皇家美室</string>
+	</dict>
+	<dict>
+		<key>nameLabel</key>
+		<string>有问题找我</string>
+		<key>moreLabel</key>
+		<string>附加家具哪家好</string>
+	</dict>
+	<dict>
+		<key>nameLabel</key>
+		<string>健康知识</string>
+		<key>moreLabel</key>
+		<string>按摩椅使用频率的利与弊</string>
+	</dict>
+	<dict>
+		<key>nameLabel</key>
+		<string>摇一摇</string>
+		<key>moreLabel</key>
+		<string>寻找同时摇晃手机的你我他</string>
+	</dict>
+	<dict>
+		<key>nameLabel</key>
+		<string>扫一扫</string>
+		<key>moreLabel</key>
+		<string>扫扫更快</string>
+	</dict>
+	<dict>
+		<key>nameLabel</key>
+		<string>娱乐游戏</string>
+		<key>moreLabel</key>
+		<string>我连穿越火爆等场</string>
+	</dict>
+	<dict>
+		<key>nameLabel</key>
+		<string>更多功能</string>
+		<key>moreLabel</key>
+		<string>查询更多的应用功能</string>
+	</dict>
+</array>
+</plist>

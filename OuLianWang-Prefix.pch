@@ -1,0 +1,61 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#import "UIView+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIImage+Extension.h"
+#import "Interface.h"
+#import "AFNetworking.h"
+#import "ZJScreenAdaptation.h"
+#import "UIKit+AFNetworking.h"
+#import "ACMacros.h"
+#import "MBProgressHUD+ZQ.h"
+#import "MJExtension.h"
+#import "NewMD5.h"
+#import "MyAccount.h"
+#import "MyAccountTool.h"
+#import "LogInViewController.h"
+//#import "UIImageView+WebCache.h"
+#import "BackSingle.h"
+#import "MJRefresh.h"
+
+#endif
+
+//统一信息通知
+#define SMSNotification @"SMSNotification"
+#define SMSAlready @"SMSAlready"
+#define DEFAULTIMG [UIImage imageNamed:@"无图 240-240"]
+//记录下来的选择的城市
+#define SelectedCity @"SelectedCity"
+//颜色
+#define ZQColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define ZQColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+// 随机色
+#define ZQRandomColor ZQColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define DefaultKey @"esaafafasfafafsaff"
+#define DefaultUrl @"http://192.168.1.147/myweb/logreg.php?"
+
+//定位或选择的城市
+#define SelectCity_Path [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"secity"]
+//定位得到的城市
+#define LocationCity @"LocationCity"
+#define UseDipuIDKey @"UseDipuIDKey"
+
+
+
+
+
+
+
